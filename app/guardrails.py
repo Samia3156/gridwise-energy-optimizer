@@ -1,4 +1,3 @@
-```python
 """
 GridWise Energy Optimizer - Deterministic guardrails.
 
@@ -479,4 +478,3 @@ def _is_int(value: Any) -> bool:
         isinstance(value, int)
         and not isinstance(value, bool)
     )
-```
