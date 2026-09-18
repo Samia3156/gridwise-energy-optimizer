@@ -29,3 +29,8 @@ htmlcov/
 # --- OS ---
 .DS_Store
 Thumbs.db
+
+# Puku runtime database files
+.puku/*.db
+.puku/*.db-shm
+.puku/*.db-wal
