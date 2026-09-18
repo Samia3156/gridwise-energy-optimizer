@@ -1,0 +1,9 @@
+# Runtime dependencies for the GridWise Energy Optimizer.
+# Versions are pinned so the team gets a reproducible environment.
+
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# httpx is used by app/llm.py to talk to the OpenAI-compatible API.
+# (httpx is also pulled in transitively by FastAPI's TestClient.)
+httpx==0.27.2
